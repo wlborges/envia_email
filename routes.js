@@ -1,6 +1,6 @@
 const {Router} = require('express');
 
-const route = router();
+const route = Router();
 
 route.get('/', (request, response) => response.send('Hello world!'))
 
