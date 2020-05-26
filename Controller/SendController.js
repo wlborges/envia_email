@@ -15,7 +15,7 @@ module.exports = {
             }
         })
         await transporter.sendMail({
-            from : "Amigo Chocolate <amigochocolate@outlook.com.br>",
+            from : "Amigo Chocolate <noreply@wlborges.com>",
             to,
             subject,
             html
