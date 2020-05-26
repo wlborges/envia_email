@@ -8,8 +8,10 @@ module.exports = {
             host: 'smtp.live.com',
             port: 25,
             auth: {
-                user : "amigochocolate@outlook.com.br",
-                pass : "Amigo@123"
+                //user : "amigochocolate@outlook.com.br",
+                //pass : "Amigo@123"
+                user : "noreply@wlborges.com",
+                pass : "1a2QK7zIM=eh"
             }
         })
         await transporter.sendMail({
