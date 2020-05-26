@@ -6,7 +6,7 @@ module.exports = {
         let { to, subject, html  } = request.body;
         const transporter = nodemailer.createTransport({
             host: 'smtp.live.com',
-            port: 25,
+            port: 465,
             auth: {
                 //user : "amigochocolate@outlook.com.br",
                 //pass : "Amigo@123"
