@@ -10,8 +10,8 @@ module.exports = {
             host: 'smtp.gmail.com',
             port: 465,
             auth: {
-                user : "noreply@wlborges.com",
-                pass : "wbwqhbctutvnkott"
+                user : "amigochocolatewlborges@gmail.com",
+                pass : "uythbfvmqoqaaxkk"
             }
         })
         await transporter.sendMail({
