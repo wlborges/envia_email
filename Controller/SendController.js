@@ -18,7 +18,6 @@ module.exports = {
         await transporter.sendMail({
             from : "Amigo Chocolate <noreply@wlborges.com>",
             to,
-            bcc: "noreply@wlborges.com>",
             subject,
             html
         }).then(info =>{
