@@ -11,7 +11,7 @@ module.exports = {
             port: 587,
             
             auth: {
-                user : "nodemailer",
+                user : "noreply@wlborges.com",
                 pass : "wbwqhbctutvnkott"
             }
         })
