@@ -8,8 +8,7 @@ module.exports = {
             //host: 'smtp.live.com',
             //port: 25,
             host: 'smtp.gmail.com',
-            port: 587,
-            
+            port: 465,
             auth: {
                 user : "noreply@wlborges.com",
                 pass : "wbwqhbctutvnkott"
